@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://stats-preview-card-component-main-wheat.vercel.app/)
-- Live Site URL: [Add live site URL here](https://stats-preview-card-component-main-wheat.vercel.app/)
+- Solution URL: [https://stats-preview-card-component-main-wheat.vercel.app/](https://stats-preview-card-component-main-wheat.vercel.app/)
+- Live Site URL: [https://stats-preview-card-component-main-wheat.vercel.app/](https://stats-preview-card-component-main-wheat.vercel.app/)
 
 ## My process
 
