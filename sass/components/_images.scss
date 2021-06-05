@@ -1,0 +1,17 @@
+@import "../base/mixins";
+img {
+  max-width: 100%;
+  height: auto;
+}
+.sp__none {
+  display: none;
+  @include for-desktop {
+    display: inline-block;
+  }
+}
+.pc__none {
+  display: inline-block;
+  @include for-desktop {
+    display: none;
+  }
+}

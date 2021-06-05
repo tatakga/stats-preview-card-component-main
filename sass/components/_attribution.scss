@@ -1,0 +1,10 @@
+@import "../base/variables";
+.attribution {
+  color: $-white-50;
+  margin-top: 2.4rem;
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}

@@ -1,0 +1,24 @@
+@import "../base/variables";
+@import "../base/mixins";
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $-blue-900;
+  padding: 3rem 1.6rem;
+}
+.row {
+  display: grid;
+  $grid-columns: (2-column: 2, 3-column: 3);
+  @each $key, $column in $grid-columns {
+    &--#{$column}__columns {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat($column, auto);
+      @include for-desktop {
+        grid-template-columns: repeat($column, 1fr);
+        grid-template-rows: 1fr;
+      }
+    }
+  }
+}
